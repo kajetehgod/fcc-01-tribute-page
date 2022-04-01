@@ -1,0 +1,17 @@
+.intro__text {
+  max-width: 768px;
+  margin: 0 0 24px;
+  padding: 0;
+
+  font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+  color: #fff;
+}
+
+.intro__text:last-of-type {
+  margin: 0;
+}

@@ -1,0 +1,18 @@
+.facts__card {
+  margin: 0;
+  padding: 12px;
+  box-sizing: border-box;
+
+  font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: justify;
+  color: #fff;
+
+  background-color: #3a3c3f;
+  /*
+  box-shadow: 4px 4px #3a3c3f;
+  */
+}
