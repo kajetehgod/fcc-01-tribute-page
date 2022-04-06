@@ -1,0 +1,8 @@
+.intro__content {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  /*
+  background-color: #3a3c3f;
+  */
+}
