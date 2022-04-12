@@ -1,4 +1,4 @@
-.footer__text {
+.footer__link {
   margin: 0;
   padding: 0;
 
@@ -7,6 +7,14 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.2;
-  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+
   color: #fff;
+
+  transition: all .2s ease-in-out;
+}
+
+.footer__link:hover {
+  text-decoration-color: #fff;
 }
