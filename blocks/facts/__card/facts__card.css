@@ -1,9 +1,12 @@
 .facts__card {
   display: flex;
   flex-direction: column;
+  padding: 18px;
+  box-sizing: border-box;
 
-  /*
-  background-color: #3a3c3f;
-  box-shadow: 4px 4px #3a3c3f;
-  */
+  transition: all .2s ease-in-out;
+}
+
+.facts__card:hover {
+  background-color: #1a1c1f;
 }

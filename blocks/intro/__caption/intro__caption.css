@@ -1,11 +1,8 @@
 .intro__caption {
-  margin-top: 4px;
-
   font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.5;
-  text-transform: uppercase;
   color: #fff;
 }

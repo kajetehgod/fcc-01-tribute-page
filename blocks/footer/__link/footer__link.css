@@ -7,14 +7,12 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.2;
-  text-decoration: underline;
-  text-decoration-color: transparent;
-
+  text-decoration: none;
   color: #fff;
 
-  transition: all .2s ease-in-out;
+  transition: color .2s ease-in-out;
 }
 
 .footer__link:hover {
-  text-decoration-color: #fff;
+  color: #6a6c6f;
 }
