@@ -7,12 +7,13 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 1.3;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: transparent;
   color: #fff;
 
-  transition: color .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 .reference__link:hover {
-  color: #6a6c6f;
+  text-decoration-color: #fff;
 }
