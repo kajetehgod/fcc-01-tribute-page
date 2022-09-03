@@ -24,3 +24,13 @@ html {
 
   background-color: #000;
 }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1098px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
