@@ -34,3 +34,69 @@ html {
   padding-top: 96px;
   padding-bottom: 96px;
 }
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 96px;
+}
+
+.intro__title {
+  width: 100%;
+  margin: 0 0 96px;
+  padding: 0;
+
+  font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 1.1;
+  text-align: center;
+  color: #fff;
+}
+
+.intro__figure {
+  max-width: 448px;
+  margin: 0 0 64px;
+}
+
+.intro__image {
+  display: block;
+  max-width: 100%;
+  object-position: center;
+  object-fit: contain;
+}
+
+.intro__caption {
+  font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.intro__text-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 768px;
+}
+
+.intro__text {
+  margin: 0 0 32px;
+  padding: 0;
+
+  font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.3;
+
+  color: #fff;
+}
+
+.intro__text:last-of-type {
+  margin: 0;
+}
